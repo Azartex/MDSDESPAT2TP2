@@ -13,7 +13,7 @@ public class ShapeMaker {
 		
 		for(Shape shape: listShape) {
 			if(listShape instanceof Circle) {
-				listShape.draw();
+				((Circle) listShape).draw();
 			}
 		}
 	}
@@ -22,7 +22,7 @@ public class ShapeMaker {
 		
 		for(Shape shape: listShape) {
 			if(listShape instanceof Rectangle) {
-				listShape.draw();
+				((Rectangle) listShape).draw();
 			}
 		}
 	}
@@ -31,7 +31,7 @@ public class ShapeMaker {
 		
 		for(Shape shape: listShape) {
 			if(listShape instanceof Square) {
-				listShape.draw();
+				((Square) listShape).draw();
 			}
 		}
 	}
